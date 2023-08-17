@@ -1,0 +1,109 @@
+#pomodoro-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 4.2rem;
+    padding-top: 3.25rem;
+    border-radius: 32px;
+    box-shadow: 0px 8px 20px 4px rgba(0, 0, 0, 0.25);
+}
+
+.focus-time{
+    background-color: rgba(186, 73, 73, 1);
+}
+
+.short-break{
+    background-color: rgba(56, 133, 138, 1);
+}
+
+.long-break{
+    background-color: rgba(57, 112, 151, 1);
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.timer{
+    color: white;
+    font-size: 64px;
+    margin-top: -160px;
+}
+
+.controller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.exclude{
+    visibility: hidden;
+}
+
+.icon-play, .icon-next{
+    color: white;
+    width: 64px;
+    height: 64px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+
+.icon-circle{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2.25rem;
+}
+
+.status{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    margin-block: 7rem;
+}
+
+.icon-question{
+    color: white;
+    height: 32px;
+    width: 32px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.information{
+    position: fixed;
+    z-index: 99;
+    margin-top: 400px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.information-hidden{
+    visibility: hidden;
+}
+
+.information p{
+    margin: 0;
+    margin-left: 1.4rem;
+}
+
+.information li {
+    margin: 0;
+    padding: 0;
+  }
